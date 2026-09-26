@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 15px rgb(129, 125, 133);
+    border-radius: 15px ;
+}
+.logo{
+    font-size: 50px;
+    color: rgb(59, 42, 77);
+}
+.buy{
+    font-size: 30px;
+    border-style: none;
+    border-radius: 40px;
+    background-color: rgb(132, 95, 180);
+    padding: 15px 20px;
+    color: aliceblue;
+}
+.menu{
+    padding: 5px;
+}
