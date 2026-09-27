@@ -1,3 +1,4 @@
+
 html {
     height: 100%;
 }
@@ -12,25 +13,38 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 12px 15px rgb(169, 161, 176);
+    box-shadow: 0 12px 15px rgb(197, 183, 209);
     border-radius: 20px;
     align-items: center;
 }
 
 .logo {
-    font-size: 50px;
-    color: rgb(59, 42, 77);
+    font-size: 45px;
+    color: rgb(64, 42, 87);
     font-width: 50px;
+    margin: 8px;
+    font-family: "Google Sans Flex";
+    font-style: bold;
 }
 
 .buy {
-    font-size: 25px;
+    font-size: 20px;
     border-style: none;
     border-radius: 40px;
     background-color: rgb(132, 95, 180);
     padding: 10px 15px;
     color: aliceblue;
     margin: 10px;
+    font-family:"Google Sans Flex" ;
+     font-variation-settings:
+    "slnt" 0,
+    "wdth" 112.5,
+    "GRAD" 0,
+    "ROND" 0; font-variation-settings:
+    "slnt" 0,
+    "wdth" 112.5,
+    "GRAD" 0,
+    "ROND" 0;
 }
 
 .menu {
@@ -69,7 +83,7 @@ body {
     border-radius: 36px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 12px 15px rgb(169, 161, 176);
+    box-shadow: 0 10px 15px rgb(187, 170, 202);
     margin: 15px;
 
 }
@@ -80,3 +94,4 @@ body {
     object-fit: cover;
     border-radius: 45px;
 }
+
