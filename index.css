@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 12px 15px rgb(129, 125, 133);
+    box-shadow: 0 12px 15px rgb(169, 161, 176);
     border-radius: 20px ;
     align-items: center;
 }
@@ -46,4 +46,14 @@ header{
 }
 body{
     height: 100%;
+}
+.product{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.cards{
+    display: flex;
+    
 }
