@@ -1,26 +1,29 @@
-html{
+html {
     height: 100%;
 }
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 12px 15px rgb(169, 161, 176);
-    border-radius: 20px ;
+    border-radius: 20px;
     align-items: center;
 }
-.logo{
+
+.logo {
     font-size: 50px;
     color: rgb(59, 42, 77);
     font-width: 50px;
 }
-.buy{
+
+.buy {
     font-size: 25px;
     border-style: none;
     border-radius: 40px;
@@ -29,31 +32,51 @@ header{
     color: aliceblue;
     margin: 10px;
 }
-.menu{
+
+.menu {
     padding: 5px;
 }
-.banner{
+
+.banner {
     padding: 35px;
 }
-.bann{
+
+.bann {
     border-radius: 50px;
     display: flex;
     justify-content: center;
     object-fit: contain;
     width: auto;
     height: 380px;
-   
+
 }
-body{
+
+body {
     height: 100%;
 }
-.product{
+
+.product {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 36px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 15px rgb(169, 161, 176);
+    margin: 15px;
 
 }
-.cards{
-    display: flex;
-    
+
+.card {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 45px;
 }
